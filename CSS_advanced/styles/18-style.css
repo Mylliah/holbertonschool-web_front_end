@@ -518,11 +518,6 @@ a:active {
   padding: var(--section-body-padding);
 }
 
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
-}
-
 .section-tagline {
     color: var(--color-primary);
     /* Task 11 */
@@ -579,6 +574,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Task 17 */
-.footer {
-  padding: var(--footer-padding);
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
