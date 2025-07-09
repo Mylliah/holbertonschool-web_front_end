@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Normalize.css v8.0.1 | https://necolas.github.io/normalize.css/ */
 /* This block is included as required in task 14 for browser consistency */
 
