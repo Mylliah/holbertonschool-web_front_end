@@ -58,6 +58,13 @@ a {
 
     /* Task 10 */
     --section-header-align: center;
+
+    /* Task 11 */
+    --section-tagline-transform: uppercase;
+
+    /* Task 12 */
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
 }
 
 /* Task 5 */
@@ -93,12 +100,25 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
+    /* Task 11 */
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 /* Task 10 */
 
 .section-header {
     text-align: var(--section-header-align);
+}
+
+/* Task 12 */
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 /* Task 4 */

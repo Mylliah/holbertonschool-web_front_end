@@ -58,6 +58,9 @@ a {
 
     /* Task 10 */
     --section-header-align: center;
+
+    /* Task 11 */
+    --section-tagline-transform: uppercase;
 }
 
 /* Task 5 */
@@ -93,6 +96,10 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
+    /* Task 11 */
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 /* Task 10 */
