@@ -505,6 +505,10 @@ a:active {
     padding: var(--section-header-padding);
 }
 
+.section-body {
+  padding: var(--section-body-padding);
+}
+
 /* Task 12 */
 .section-title {
     font-family: var(--font-family-title);
@@ -514,16 +518,19 @@ a:active {
     color: var(--section-title-color);
 }
 
-.section-body {
-  padding: var(--section-body-padding);
-}
-
 .section-tagline {
     color: var(--color-primary);
     /* Task 11 */
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+/* Task 17 */
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 /* Task 16 */
@@ -573,9 +580,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--nav-item-link-hover);
 }
 
-/* Task 17 */
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
+.footer {
+    padding: var(--footer-padding);
 }
