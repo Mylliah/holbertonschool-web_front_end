@@ -465,44 +465,44 @@ a:active {
 }
 
 .section {
-  padding: var(--section-padding);
+    padding: var(--section-padding);
 }
 
 .section-header {
-  text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
-}
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
+    text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
 }
 
 .section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 .section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 /* Task 16 */
 
 .container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Task 4 */
@@ -516,32 +516,32 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Task 18 */
 .navbar-menu {
-  float: right;
+    float: right;
 }
 
 .nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
 .nav .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
-  display: block;
-  padding: 0.5rem 1rem; /* 0.5rem haut/bas, 1rem gauche/droite */
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
 
 .footer {
