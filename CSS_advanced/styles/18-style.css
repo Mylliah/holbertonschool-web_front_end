@@ -362,28 +362,6 @@ template {
 
 /* ------------------------------------------------ */
 
-/* Task 1 */
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Task 2 */
-
-body {
-    color : #161616;
-}
-
-a {
-    color : #161616;
-}
-
-.visually-hidden {
-    display: none;
-}
-
-/* Task 3 */
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -442,6 +420,7 @@ a {
 
 /* Task 5 */
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -503,7 +482,6 @@ a:active {
   text-align: var(--section-footer-align);
 }
 
-/* ensuite : les sous-éléments de section */
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
@@ -569,4 +547,3 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     padding: var(--footer-padding);
 }
-
