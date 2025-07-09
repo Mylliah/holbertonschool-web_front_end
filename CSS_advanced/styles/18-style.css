@@ -493,12 +493,9 @@ a:active {
     color: var(--color-primary);
 }
 
-.section-tagline {
-    color: var(--color-primary);
-    /* Task 11 */
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
+/* Task 17 */
+.section {
+  padding: var(--section-padding);
 }
 
 /* Task 10 */
@@ -517,11 +514,6 @@ a:active {
     color: var(--section-title-color);
 }
 
-/* Task 17 */
-.section {
-  padding: var(--section-padding);
-}
-
 .section-body {
   padding: var(--section-body-padding);
 }
@@ -531,14 +523,13 @@ a:active {
   text-align: var(--section-footer-align);
 }
 
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
+.section-tagline {
+    color: var(--color-primary);
+    /* Task 11 */
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
-
 
 /* Task 16 */
 
