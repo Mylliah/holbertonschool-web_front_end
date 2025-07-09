@@ -46,6 +46,10 @@ a {
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
+
+    /* Task 6 */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 }
 
 /* Task 5 */
@@ -59,6 +63,8 @@ body {
     font-family: var(--font-family-base);
     /* Task 5 */
     font-size: var(--font-size-medium);
+    /* Task 6 */
+    font-weight: var(--font-weight-regular);
 }
 
 a {
@@ -81,4 +87,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
+
+    /* Task 6 */
+    font-weight: var(--font-weight-bold); 
 }

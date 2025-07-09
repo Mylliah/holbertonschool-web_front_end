@@ -26,7 +26,7 @@ a {
     color: #D73953;
 }
 
-/* Task 2 */
+/* Task 3 */
 
 :root {
     --color-primary: #d73953;
@@ -35,14 +35,14 @@ a {
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    /* Task 3 */
+    /* Task 4 */
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
     color: var(--text-color);
-    /* Task 3 */
+    /* Task 4 */
     font-family: var(--font-family-base);
 }
 
@@ -62,7 +62,7 @@ a {
     color: var(--color-primary);
 }
 
-/* Task 3 */
+/* Task 4 */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
