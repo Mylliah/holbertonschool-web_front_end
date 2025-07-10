@@ -586,18 +586,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Task 29 */
 .nav .nav-link::before {
-    content: "";                   
-    position: absolute;             
-    top: 0;                          
-    left: 0;                          
-    background-color: var(--color-white);  
-    width: 0;                         
-    height: 2rem;                     
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
 }
 
+/* Task 29 */
 .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);  
-    width: 100%;                        
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 /* Task 19 */
