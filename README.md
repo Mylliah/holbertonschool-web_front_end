@@ -26,6 +26,4 @@
     - How to animate elements in CSS
     - How to transform (2d, 3d) elements
     - What vendor prefixes are
-
-## Project 3 : JavaScript - Warm up
-    
+ 
